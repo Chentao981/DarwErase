@@ -90,11 +90,15 @@
     
     if (self.erase) {
         [[UIColor clearColor] set];
+        path.lineWidth = 15;
     }else{
         [[UIColor redColor] set];
+        path.lineWidth = 10;
     }
     
-    path.lineWidth = 10;
+    
+    path.lineJoinStyle = kCGLineJoinRound;
+    path.lineCapStyle = kCGLineCapRound;
     
     [path strokeWithBlendMode:kCGBlendModeClear alpha:1.0];
     
