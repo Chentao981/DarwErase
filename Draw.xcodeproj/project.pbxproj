@@ -13,6 +13,9 @@
 		C68EAC4822325158005E6739 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EAC4722325158005E6739 /* main.m */; };
 		C68EAC5022325938005E6739 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EAC4F22325938005E6739 /* MainView.m */; };
 		C68EAC522236056A005E6739 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C68EAC5122360569005E6739 /* image.jpg */; };
+		C68EAC582236764B005E6739 /* KCLGraphItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EAC572236764B005E6739 /* KCLGraphItem.m */; };
+		C68EAC5B22374BCA005E6739 /* KCLGraphPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EAC5A22374BCA005E6739 /* KCLGraphPath.m */; };
+		C68EAC5E22374BE4005E6739 /* KCLGraphText.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EAC5D22374BE4005E6739 /* KCLGraphText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,12 @@
 		C68EAC4E22325938005E6739 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		C68EAC4F22325938005E6739 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		C68EAC5122360569005E6739 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		C68EAC562236764B005E6739 /* KCLGraphItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCLGraphItem.h; sourceTree = "<group>"; };
+		C68EAC572236764B005E6739 /* KCLGraphItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLGraphItem.m; sourceTree = "<group>"; };
+		C68EAC5922374BCA005E6739 /* KCLGraphPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCLGraphPath.h; sourceTree = "<group>"; };
+		C68EAC5A22374BCA005E6739 /* KCLGraphPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLGraphPath.m; sourceTree = "<group>"; };
+		C68EAC5C22374BE4005E6739 /* KCLGraphText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCLGraphText.h; sourceTree = "<group>"; };
+		C68EAC5D22374BE4005E6739 /* KCLGraphText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLGraphText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,12 @@
 				C68EAC3C22325157005E6739 /* ViewController.m */,
 				C68EAC4E22325938005E6739 /* MainView.h */,
 				C68EAC4F22325938005E6739 /* MainView.m */,
+				C68EAC562236764B005E6739 /* KCLGraphItem.h */,
+				C68EAC572236764B005E6739 /* KCLGraphItem.m */,
+				C68EAC5922374BCA005E6739 /* KCLGraphPath.h */,
+				C68EAC5A22374BCA005E6739 /* KCLGraphPath.m */,
+				C68EAC5C22374BE4005E6739 /* KCLGraphText.h */,
+				C68EAC5D22374BE4005E6739 /* KCLGraphText.m */,
 				C68EAC4122325158005E6739 /* Assets.xcassets */,
 				C68EAC4622325158005E6739 /* Info.plist */,
 				C68EAC4722325158005E6739 /* main.m */,
@@ -142,7 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68EAC5B22374BCA005E6739 /* KCLGraphPath.m in Sources */,
 				C68EAC3D22325157005E6739 /* ViewController.m in Sources */,
+				C68EAC582236764B005E6739 /* KCLGraphItem.m in Sources */,
+				C68EAC5E22374BE4005E6739 /* KCLGraphText.m in Sources */,
 				C68EAC5022325938005E6739 /* MainView.m in Sources */,
 				C68EAC4822325158005E6739 /* main.m in Sources */,
 				C68EAC3A22325157005E6739 /* AppDelegate.m in Sources */,
